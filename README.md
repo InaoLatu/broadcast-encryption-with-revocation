@@ -33,13 +33,13 @@ revoked can access to k. The key k is used to encrypt the given image.
 
 - Activate virtualenv: ``` source venv/bin/activate```
 
-- Install requirements: 
+- Install requirements:  
 ``` pip install -r requirements.txt ```
 
 ## How to use the code 
 In *main.py* you have to set the input values as follows: 
 
 
-![input values](input_values.png)
+![input values](input_values._code.png)
 
 

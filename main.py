@@ -22,7 +22,7 @@ with open('image.jpg', 'rb') as f:
 
 n_devices = 8  # power of two
 banned_devices = [9, 11]  # Ids of the banned devices, In case of 8 devices the ids are 8,9,10,11,12,13,14,15.
-# In case of 4 devices the ids are: 4, 5, 6, 7. Always the nodes at the last level of hierarchy
+# In case of 4 devices the ids are: 4, 5, 6, 7. Always the nodes at the last level of hierarchy.
 
 levels = math.log(n_devices, 2)
 key_set_length = 0
